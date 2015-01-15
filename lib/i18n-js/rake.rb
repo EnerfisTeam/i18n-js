@@ -5,7 +5,7 @@ namespace "i18n:js" do
   end
 
   desc "Export the messages files"
-  task :export => :environment do
+  task :export do
     SimplesIdeias::I18n.export!
   end
 
